@@ -88,6 +88,7 @@ public class AccountNumberBindDetailActivity extends ToobarActivity {
         context.startActivity(intent);
 
 
+
     }
 
     private void init() {
