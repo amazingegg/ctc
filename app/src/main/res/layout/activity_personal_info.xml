@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_name"
+        android:background="@drawable/selector_item_press"
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_height="48dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerVertical="true"
+            android:text="@string/a154"
+            android:textSize="15sp"
+            android:textColor="@color/f888888"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toLeftOf="@+id/tv_info"
+            android:id="@+id/tv_name"
+            android:layout_centerVertical="true"
+            android:text="联联"
+            android:textSize="15sp"
+            android:textColor="@color/text_color"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_arrow"
+            android:textSize="15sp"
+            android:textColor="@color/text_color"
+            android:layout_alignParentRight="true"
+            android:layout_width="18dp"
+            android:layout_height="18dp" />
+        <View
+            android:id="@+id/line"
+            style="@style/LineStyle"/>
+    </RelativeLayout>
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_uid"
+        android:layout_width="match_parent"
+        app:ivTitle="UID"
+        app:ivInfo="111"
+        android:layout_height="wrap_content"/>
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_country"
+        android:layout_width="match_parent"
+        app:ivTitle="@string/a155"
+        app:ivInfo="111"
+        android:layout_height="wrap_content"/>
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_regist_time"
+        android:layout_width="match_parent"
+        app:ivTitle="@string/a156"
+        app:ivInfo="111"
+        app:lineVisible="false"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

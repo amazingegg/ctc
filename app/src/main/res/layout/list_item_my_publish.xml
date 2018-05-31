@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white"
+    android:layout_height="170dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联联"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未付款"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/textColor2"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv_name"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/a237"
+                android:textColor="@color/f888888"/>
+
+            <TextView
+                android:id="@+id/tv_order_time"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="2017-12-16 15:00"
+                android:textColor="@color/f888888"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/a238"
+                android:textColor="@color/f888888"/>
+
+            <TextView
+                android:id="@+id/tv_orderid"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="LPM123456"
+                android:textColor="@color/f888888"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/a239"
+                android:textColor="@color/f888888"/>
+
+            <TextView
+                android:id="@+id/tv_cont"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="10"
+                android:textColor="@color/f888888"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/a240"
+                android:textColor="@color/f888888"/>
+
+            <TextView
+                android:id="@+id/tv_currency"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="π"
+                android:textColor="@color/textColor2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/a241"
+                android:textColor="@color/f888888"/>
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_amount_price"
+                android:layout_toRightOf="@+id/tv_amount"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="100CNY"
+                android:textColor="@color/textColor2"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status_bottom"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:background="@drawable/shap_input_box_red"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="确认付款"
+        android:textSize="12sp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/textColor2"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_waiting_confirm"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:text="等待卖家确认"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="33dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/LineStyle"/>
+</RelativeLayout>

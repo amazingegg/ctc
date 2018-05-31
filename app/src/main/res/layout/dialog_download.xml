@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <View
+        style="@style/LineStyle"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解决已知bug"
+        android:textColor="@color/f000000"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:id="@+id/remark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="界面布局优化"
+        android:textColor="@color/f000000"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/remark1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/f000000"
+        android:textSize="15sp"/>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:id="@+id/rl_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a199"
+            android:textColor="@color/f000000"
+            android:background="@drawable/selector_item_press"
+            android:textSize="16sp"/>
+        <View
+            android:layout_width="1.5px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/line"/>
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_item_press"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/a207"
+            android:textColor="@color/textColor2"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

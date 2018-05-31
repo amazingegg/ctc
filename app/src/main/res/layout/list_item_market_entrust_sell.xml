@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="24dp"
+    android:background="@drawable/selector_item_press"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="16dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="5566.42"
+            android:textColor="@color/textColor_green"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="31dp"
+            android:text="214"
+            android:textColor="@color/fbbbbbb"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="124"
+            android:textColor="@color/fbbbbbb"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>

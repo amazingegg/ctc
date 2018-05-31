@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/part_entrust"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.androidkun.xtablayout.XTabLayout
+        android:id="@+id/tab_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        app:xTabIndicatorColor="@color/textColor2"
+        app:xTabIndicatorHeight="2dp"
+        app:xTabIndicatorWidth="50dp"
+        app:xTabTextSize="16sp">
+
+        <com.androidkun.xtablayout.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a539" />
+
+        <com.androidkun.xtablayout.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a540" />
+
+
+    </com.androidkun.xtablayout.XTabLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/a212"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/price_entrust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="130dp"
+            android:text="@string/a213"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="232dp"
+            android:text="@string/a44"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="@string/a215"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview_entrust"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp210"
+        android:background="@color/white">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout
+        android:id="@+id/ll_empty_entrust"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/empty1" />
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/a216"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+        &lt;!&ndash; <TextView
+             android:visibility="gone"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/click_me_to_retry"/>&ndash;&gt;
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>-->
+
+
+</LinearLayout>

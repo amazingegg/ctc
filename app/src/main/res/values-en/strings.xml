@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CTC</string>
+    <string name="share_title">"Novice registration, enjoy moat ceremony "</string>
+    <string name="scan_barcode_title">"Bar code scanning "</string>
+    <string name="scan_qrcode_title">"QR code scanning "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sao_mao">SaoMaoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jump_to">JumpToActivity</string>
+    <string name="scan_allcode_title">"QR code or Bar code scanning "</string>
+    <string name="scan_barcode_hint">"The bar code into the framefinder, you can automatically scan "</string>
+    <string name="scan_qrcode_hint">"The QR code into the framefinder, you can automatically scan "</string>
+    <string name="scan_allcode_hint">"The QR code or bar code into the frame, you can automatically scan "</string>
+    <string name="a1">CTC Digital Asset Trading Platform</string>
+    <string name="a2">CTC is a global-based digital asset trading platform that provides maximum security and advanced trading functions. Based on the latest developments, CTC is developing a new transaction model that is applicable to the current stage of development, and is committed to building secure and reliable digital asset transactions. platform.</string>
+    <string name="a3">"Alipay "</string>
+    <string name="a4">"Unbound"</string>
+    <string name="a5">"WeChat "</string>
+    <string name="a6">"Bank Card "</string>
+    <string name="a7">"Already Bound "</string>
+    <string name="a8">"Please confirm the account to be bound for all my Alipay account will be used as your collection account in the transaction "</string>
+    <string name="a9">"Bind Immediately "</string>
+    <string name="a10">"Card Number "</string>
+    <string name="a11">"Enter the bank card account "</string>
+    <string name="a12">Name</string>
+    <string name="a13">"Please enter the cardholder's name "</string>
+    <string name="a14">"Bank "</string>
+    <string name="a15">"Please enter the bank "</string>
+    <string name="a16">"SMS Code "</string>
+    <string name="a17">"SMS Code "</string>
+    <string name="a18">"Get verification code "</string>
+    <string name="next">Next</string>
+    <string name="a19">"Tips "</string>
+    <string name="a20">"Available "</string>
+    <string name="a21">"Freeze "</string>
+    <string name="a22">C2C Recharge</string>
+    <string name="a23">C2C Withdrawal</string>
+    <string name="a24">Withdrawal Address</string>
+    <string name="a25">"Address "</string>
+    <string name="a26">"The minimum number of 0.01 "</string>
+    <string name="a27">"All "</string>
+    <string name="a28">"Fee "</string>
+    <string name="a29">"The number of accounts "</string>
+    <string name="a30">Withdrawal</string>
+    <string name="a31">"Save the QR code to the album "</string>
+    <string name="a32">"Copy Address "</string>
+    <string name="a33">"Alipay Transfer "</string>
+    <string name="a34">"Payment"</string>
+    <string name="a35">"Location "</string>
+    <string name="a36">"China "</string>
+    <string name="a37">"Prompt "</string>
+    <string name="a38">"Minute "</string>
+    <string name="a39">"Buy "</string>
+    <string name="a40">"Platform charge 1% fee "</string>
+    <string name="a41">"Proposed to sell the number of multiples of 1 "</string>
+    <string name="a42">"Amount "</string>
+    <string name="a43">CNY</string>
+    <string name="a44">Quantity</string>
+    <string name="a45">π</string>
+    <string name="a46">Available :</string>
+    <string name="a47">Freeze :</string>
+    <string name="a48">Buy%1$s</string>
+    <string name="a49">"Click Copy "</string>
+    <string name="a50">"Alipay Account "</string>
+    <string name="a51">After creating an order, it is necessary to contact the seller to confirm that
+        the seller is online and pays the payment to the Alipay/Wechat/bank account provided by the seller
+        within the payment period. Remark the payment reference number when transferring, so that the seller
+        can easily see your payment and then click "payment completed" after payment.</string>
+    <string name="a52">"To Alipay transfer "</string>
+    <string name="a53">Price</string>
+    <string name="a54">Remark:</string>
+    <string name="a55">"Tell him your request "</string>
+    <string name="a56">OK</string>
+    <string name="a57">"Customer service hotline "</string>
+    <string name="a58">"Wechat number "</string>
+    <string name="a59">"Operating hours "</string>
+    <string name="a60">"Please leave your valuable comments here! "</string>
+    <string name="a61">"Phone number / E-mail: "</string>
+    <string name="a62">"(Optional, to help us contact you) "</string>
+    <string name="a63">"Submit "</string>
+    <string name="a64">"Enter the phone number"</string>
+    <string name="a65">"SMS verification code "</string>
+    <string name="a66">"New password "</string>
+    <string name="a67">"Confirm password "</string>
+    <string name="a69">"Password reset complete "</string>
+    <string name="a70">Login</string>
+    <string name="a71">Range</string>
+    <string name="a72">Vol</string>
+    <string name="a73">Low</string>
+    <string name="a74">High</string>
+    <string name="a75">"Time-sharing "</string>
+    <string name="a76">5Min</string>
+    <string name="a77">30Min</string>
+    <string name="a78">60Min</string>
+    <string name="a79">Day</string>
+    <string name="a80">Login</string>
+    <string name="a81">Register</string>
+    <string name="a82">"Enter the password"</string>
+    <string name="a83">"Forget Password "</string>
+    <string name="a84">"Please set the nickname (4-10 characters) "</string>
+    <string name="a85">"Verification code "</string>
+    <string name="a86">"Set password (6-16 alphanumeric password) "</string>
+    <string name="a87">"Optional (invitation code for your friend phone number) "</string>
+    <string name="a88">"Home "</string>
+    <string name="a89">"Trades "</string>
+    <string name="a90">"Assets "</string>
+    <string name="a100">Me</string>
+    <string name="a101">"Membership Packages "</string>
+    <string name="a102">"Transaction fee 20% off, giving 300 points "</string>
+    <string name="a103">"One year VIP "</string>
+    <string name="a104">"VIP Privilege "</string>
+    <string name="a105">"Total: "</string>
+    <string name="a106">Pay</string>
+    <string name="a107">"Please enter the old password "</string>
+    <string name="a108">"Contain numbers and letters,6 digits "</string>
+    <string name="a109">"Enter the new password again "</string>
+    <string name="a110">"My Bonus "</string>
+    <string name="a111">My Bonus(USD)</string>
+    <string name="a112">"Number of invitations "</string>
+    <string name="a113">"Invite Users "</string>
+    <string name="a114">"Date "</string>
+    <string name="a115">"Bonus (USD) "</string>
+    <string name="a116">"Withdrawals "</string>
+    <string name="a117">"Points Available "</string>
+    <string name="a118">"1 point = 1USD "</string>
+    <string name="a119">"Points can be used to deduct transaction fees "</string>
+    <string name="a120">All </string>
+    <string name="a121">"Unpaid "</string>
+    <string name="a122">Paid </string>
+    <string name="a123">"Finish "</string>
+    <string name="a124">"Appeal "</string>
+    <string name="a125">"Waiting for buyers payment "</string>
+    <string name="a126">"CTC Secured Trades "</string>
+    <string name="a127">"Total Price: "</string>
+    <string name="a128">"Order Number "</string>
+    <string name="a129">"Alipay Account "</string>
+    <string name="a130">"Order Time "</string>
+    <string name="a131">"Order Remark "</string>
+    <string name="a132">"Cancel Order "</string>
+    <string name="a133">"Confirm Payment "</string>
+    <string name="a134">"Recharge Quantity "</string>
+    <string name="a135">"100π at least "</string>
+    <string name="a136">Discovery Account</string>
+    <string name="a137">"π Account "</string>
+    <string name="a138">"Contact Number "</string>
+    <string name="a139">"Phone number "</string>
+    <string name="a140">"Recharge Order Number "</string>
+    <string name="a141">"Recharge Quantity "</string>
+    <string name="a142">"Contact Information "</string>
+    <string name="a143">"Copy "</string>
+    <string name="a144">"Transfer order number "</string>
+    <string name="a145">"Please enter π transfer order number "</string>
+    <string name="a146">"I have transfer π "</string>
+    <string name="a147">"Submitted successfully "</string>
+    <string name="a148">"The system will finish processing in 10 minutes "</string>
+    <string name="a149">"Please note your π asset balance "</string>
+    <string name="a150">"Change payment password "</string>
+    <string name="a151">"Forgot to pay for the password "</string>
+    <string name="a152">"Please set the payment password, it is recommended that you do not have the same login password "</string>
+    <string name="a153">"New payment password "</string>
+    <string name="a154">"Nickname "</string>
+    <string name="a155">"Country "</string>
+    <string name="a156">"Registration Time "</string>
+    <string name="a157">π</string>
+    <string name="a158">"Buy Quantity "</string>
+    <string name="a159">"Integer between 5-50 minutes"</string>
+    <string name="a160">Transaction earnest money</string>
+    <string name="a161">"Please choose a payment method "</string>
+    <string name="a162">"UnionPay transfer "</string>
+    <string name="a163">"Order released successfully "</string>
+    <string name="a164">"3s back to the home page "</string>
+    <string name="a165">"Currency "</string>
+    <string name="a166">"Latest Price "</string>
+    <string name="a167">"Quote Change "</string>
+    <string name="a168">"Language "</string>
+    <string name="a169">"Funding Password "</string>
+    <string name="a170">"Verified "</string>
+    <string name="a171">"Cellphone Number "</string>
+    <string name="a172">"Modify Password "</string>
+    <string name="a173">"Personal Information "</string>
+    <string name="a174">"About "</string>
+    <string name="a175">"Version Upgrade "</string>
+    <string name="a176">"Log Out "</string>
+    <string name="a177">"Share Prizes "</string>
+    <string name="a178">"Add Bank Card "</string>
+    <string name="a179">"Bank Card "</string>
+    <string name="a180">"Withdraw Quantity "</string>
+    <string name="a181">$</string>
+    <string name="a182">10.0 at least</string>
+    <string name="a183">≈￥</string>
+    <string name="a184">64.00 at least</string>
+    <string name="a185">"Available USD "</string>
+    <string name="a186">"All Cash "</string>
+    <string name="a187">"Your name "</string>
+    <string name="a188">Tips:</string>
+    <string name="a189">"This name will be used as the name you need to fill in "</string>
+    <string name="a190">￥</string>
+    <string name="a191">100.00 at least</string>
+    <string name="a192">≈$</string>
+    <string name="a193">"Please remit money to the following account "</string>
+    <string name="a194">"Account Name "</string>
+    <string name="a195">Copy</string>
+    <string name="a196">"Bank Account "</string>
+    <string name="a197">"Beneficiary Bank "</string>
+    <string name="a198">Create account bank</string>
+    <string name="a199">Cancel</string>
+    <string name="a200">"Remitted"</string>
+    <string name="a201">"Identity Informaiton "</string>
+    <string name="a202">"Account Binding "</string>
+    <string name="a203">"Please enter identification number "</string>
+    <string name="a204">"Fee Discount "</string>
+    <string name="a205">Level</string>
+    <string name="a206">"OK to cancel the order? "</string>
+    <string name="a207">"Upgrade immediately "</string>
+    <string name="a208">"Get 30 points "</string>
+    <string name="a209">"Points can be used to deduct transaction fees "</string>
+    <string name="a210">"Quantity: "</string>
+    <string name="a211">"Pull up to see the latest transaction "</string>
+    <string name="a212">Time</string>
+    <string name="a213">Price</string>
+    <string name="a215">"Operate "</string>
+    <string name="a216">"No Data "</string>
+    <string name="a217">"Tutorial "</string>
+    <string name="a218">"Contact Customer Service "</string>
+    <string name="a219">"Market "</string>
+    <string name="a220">"More "</string>
+    <string name="a221">"Buy "</string>
+    <string name="a222">"User "</string>
+    <string name="a223">"Price (CNY) "</string>
+    <string name="a224">"Sell "</string>
+    <string name="a225">\t=\t¥</string>
+    <string name="a226">"K Line "</string>
+    <string name="a227">Buy</string>
+    <string name="a228">Sell</string>
+    <string name="a229">"Slide back to the trading page "</string>
+    <string name="a230">"Price (CNY) "</string>
+    <string name="a231">"My Order "</string>
+    <string name="a232">"My Release "</string>
+    <string name="a233">"My Integral "</string>
+    <string name="a234">"Help Center "</string>
+    <string name="a235">Setting</string>
+    <string name="a236">"No Records "</string>
+    <string name="a237">"Order Time: "</string>
+    <string name="a238">"Order Number: "</string>
+    <string name="a239">"Quantity: "</string>
+    <string name="a240">"Currency: "</string>
+    <string name="a241">"Total Price: "</string>
+    <string name="a242">"Total USD "</string>
+    <string name="a243">"CTC Digital Asset Exchange "</string>
+    <string name="a244">"Transaction fee\n %1$s%2$s "</string>
+    <string name="a245">"VIP highest enjoy%1$d discount fee "</string>
+    <string name="a246">"To Open "</string>
+    <string name="a247">"Not open vip "</string>
+    <string name="a248">"Function is not yet open "</string>
+    <string name="a249">"Alipay Binding "</string>
+    <string name="a250">"Alipay Account: "</string>
+    <string name="a251">"Modify "</string>
+    <string name="a252">"WeChat Binding "</string>
+    <string name="a253">"WeChat Account: "</string>
+    <string name="a254">Please confirm the account to be bound for all Wechat account will be used
+        as your collection account in the transaction</string>
+    <string name="a255">Alipay account name</string>
+    <string name="a256">Alipay name can not be empty</string>
+    <string name="a257">Alipay account can not be empty</string>
+    <string name="a258">WeChat account can not be empty</string>
+    <string name="a259">Loading&#8230;&#8230;&#8230;</string>
+    <string name="a260">Bind Success</string>
+    <string name="a261">Sent Successfully</string>
+    <string name="a262">Recharge</string>
+    <string name="a263">Withdrawal</string>
+    <string name="a264">Recharge</string>
+    <string name="a265">Withdrawal</string>
+    <string name="a266">The minimum number of coins is: %1$s %2$s. To ensure the
+        safety of funds, when your account password is changed and the new address
+        is used to withdraw coins, we will conduct a manual audit of the coins.
+        Please be patient and wait for the staff to call or e-mail. Please be sure
+        to confirm the security of your computer and browser and prevent the information
+        from being tampered with. Or leaked.</string>
+    <string name="a267">%1$s Withdrawal</string>
+    <string name="a268">Camera permissions are not available</string>
+    <string name="a269">Scan QR code need to open the camera permissions, please add permissions to the settings</string>
+    <string name="a270">Open Immediately</string>
+    <string name="a271">Permission to obtain success</string>
+    <string name="a272">In - Settings - Permissions - Allow CTC to use camera permissions</string>
+    <string name="a273">%1$s Recharge</string>
+    <string name="a274">Please do not add any non-%1$s assets to the above address, otherwise the assets will
+        not be recovered. \n After recharging to the above address, you need to confirm the entire network node.
+        Once the network is authenticated, the network will enter the freeze, and it will be available after 6
+        network confirmations. \nMinimum recharge: 0.001%2$s. Recharges less than the minimum amount will not be credited.
+
+</string>
+    <string name="a275">Copy Successfully</string>
+    <string name="a276">Saved Successfully</string>
+    <string name="a277">Storage permissions are not available</string>
+    <string name="a278">Save the file need to store permissions, please add permissions to the settings</string>
+    <string name="a279">In - Settings - Permissions - Allow CTC to use storage permissions to save user data</string>
+    <string name="a280">Sell</string>
+    <string name="a281">Sell%1$s</string>
+    <string name="a282">The price can not be empty</string>
+    <string name="a283">The number can not be empty</string>
+    <string name="a284">Can not buy your own order</string>
+    <string name="a285">Can not sell your own order</string>
+    <string name="a286">You have not bound Alipay, whether to bind?</string>
+    <string name="a287">Finished</string>
+    <string name="a288">Payment remaining time:</string>
+    <string name="a289">Contact Seller</string>
+    <string name="a290">Contact Buyer</string>
+    <string name="a291">Seller</string>
+    <string name="a292">Buyer</string>
+    <string name="a293">1. After creating an order, please contact the seller to confirm if the seller is online.
+        2. Make payment within the payment period to the Alipay, Wechat or bank account provided by the seller.
+        3. after the payment click "payment has been completed."
+</string>
+    <string name="a294">1. After creating an order, you need to contact the buyer to confirm whether the buyeris online.
+        2. Wait for the buyer to make a payment to your Alipay, Wechat or bank account.
+        3. Please check the payment reference number in the remarks when collecting payment to facilitate
+        confirming the identity of the payment buyer. After receiving the payment, click "Confirm payment".
+</string>
+    <string name="a295">Please confirm that the seller has remittances otherwise it will reduce your credibility</string>
+    <string name="a296">Successful operation</string>
+    <string name="a297">Confirm Order</string>
+    <string name="a298">Sell Quantity</string>
+    <string name="a299">Retrieve the password</string>
+    <string name="a300">Phone number can not be empty</string>
+    <string name="a301">password can not be empty</string>
+    <string name="a302">verification code can not be empty</string>
+    <string name="a303">Verification code error</string>
+    <string name="a304">The password is different</string>
+    <string name="a305">Quotation</string>
+    <string name="a306">Logging&#8230;&#8230;&#8230;</string>
+    <string name="a307">Username can not be empty</string>
+    <string name="a308">User nickname can not be empty</string>
+    <string name="a309">The user\'s nickname is between 4&#8211;10 characters</string>
+    <string name="a310">The phone can not be empty</string>
+    <string name="a311">Please enter the correct phone number</string>
+    <string name="a312">Password can not be empty</string>
+    <string name="a313">The password can not be less than 6 digits</string>
+    <string name="a314">verification code can not be empty</string>
+    <string name="a315">Please enter the correct invitation phone number</string>
+    <string name="a316">Registration Success</string>
+    <string name="a317">This user is registered</string>
+    <string name="a318">Member Center</string>
+    <string name="a319">Up to 20% discount on fees</string>
+    <string name="a320">Up to 80% rebate fee</string>
+    <string name="a321">300 CTC points awarded</string>
+    <string name="a322">VIP level exclusive icon</string>
+    <string name="a323">Renew fee</string>
+    <string name="a324">Nonactivated</string>
+    <string name="a325">Poor</string>
+    <string name="a326">friends recharge members, you can upgrade to </string>
+    <string name="a327">You are the highest VIP</string>
+    <string name="a328">Funding Password
+</string>
+    <string name="a329">Please enter the complete password</string>
+    <string name="a330">Open Successfully</string>
+    <string name="a331">Go Recharge</string>
+    <string name="a332">Available USD is insufficient</string>
+    <string name="a333">Old password can not be empty</string>
+    <string name="a334">New password can not be empty</string>
+    <string name="a335">Please re-enter the new password</string>
+    <string name="a336">The password is different twice</string>
+    <string name="a337">No bonus available</string>
+    <string name="a338">Cash withdrawal is successful, please check account balance</string>
+    <string name="a339">You are not a VIP member, VIP members can withdraw cash</string>
+    <string name="a340">Pending </string>
+    <string name="a341">Trading</string>
+    <string name="a342">Order Details</string>
+    <string name="a343">Photographed successfully, waiting for the buyer to pay</string>
+    <string name="a344">Minute</string>
+    <string name="a345">After payment, the order will be automatically canceled</string>
+    <string name="a346">The buyer has paid</string>
+    <string name="a347">Order completed</string>
+    <string name="a348">Customer service processing</string>
+    <string name="a349">Customer service is rapidly processed, please be patient</string>
+    <string name="a350">Seller Tel:</string>
+    <string name="a351">Paid, waiting for the seller to confirm</string>
+    <string name="a352">Buyer Tel:</string>
+    <string name="a353">π Asset Recharge</string>
+    <string name="a354">Transfer order number can not be empty</string>
+    <string name="a355">The number can not be less than 100</string>
+    <string name="a356">Account can not be empty</string>
+    <string name="a357">Illegal phone number</string>
+    <string name="a359"><![CDATA[Please turn π to the administrator in <font color=\'#FF5D5A\'>%1$d</font> minutes]]></string>
+    <string name="a360">Complete recharge, otherwise the system will automatically cancel</string>
+    <string name="a361">After the administrator confirms, your π is recharged successfully</string>
+    <string name="a362"><![CDATA[Please use the account <font color=\'#FF5D5A\'>%1$s</font> to send the administrator <font color=\'#FF5D5A\'>%2$s</font>π]]></string>
+    <string name="a363">Administrator Discovery Account</string>
+    <string name="a364"><![CDATA[Username: <font color=\'#FF5D5A\'>%1$s</font>]]></string>
+    <string name="a365"><![CDATA[Four mobile phones:<font color=\'#FF5D5A\'>%1$s</font>]]></string>
+    <string name="a366">Please set the payment password, it is recommended that you do not have the same login password</string>
+    <string name="a367">Set the funds password</string>
+    <string name="a368">Please enter your old payment password to verify your identity</string>
+    <string name="a369">Modify the funds password</string>
+    <string name="a370">Forget the funds password</string>
+    <string name="a371">Funding password can only be 6 digits</string>
+    <string name="a372">Set successfully</string>
+    <string name="a373">Successfully modified</string>
+    <string name="a374">Change Nickname</string>
+    <string name="a375">User nickname can not be empty</string>
+    <string name="a376">The amount can not be empty</string>
+    <string name="a377">The amount is too large</string>
+    <string name="a378">The number is too large</string>
+    <string name="a379">"You are a VIP user and you have enjoyed a royalty-free privilege "</string>
+    <string name="a380">VIP enjoyment fee privilege</string>
+    <string name="a381">Special VIP free fee</string>
+    <string name="a382">%1$s insufficient balance, please recharge</string>
+    <string name="a383">Payment term can not be empty</string>
+    <string name="a384">%1$ds After returning to the home page</string>
+    <string name="a385">Is the latest version</string>
+    <string name="a386">Start downloading APP</string>
+    <string name="a387">Found a new version</string>
+    <string name="a388">Download APK files need to store permissions, please add permissions to the settings</string>
+    <string name="a389">Permission to obtain success, began to download APP</string>
+    <string name="a390">In - Settings - Permissions - Allow CTC to use storage permissions to save user data</string>
+    <string name="a391">Record</string>
+    <string name="a392">Debit Card (%1$s)</string>
+    <string name="a393">Please add a bank card</string>
+    <string name="a394">The number of cash can not be empty</string>
+    <string name="a395">The number of cash can not be less %1$d</string>
+    <string name="a396">Exceeds the extractable number</string>
+    <string name="a397">Draw the quantity (1.00 USD = %1$s CNY)</string>
+    <string name="a398">at least</string>
+    <string name="a399">Record</string>
+    <string name="a400">Reminder:\nPlease remit payment to the bank account provided by the system as soon as possible. After the remittance is completed, click “Finished remittance”. Your USD will be credited within 10 minutes. If the USD does not arrive in time, please contact customer service.</string>
+    <string name="a401">Please confirm that you have completed the remittance</string>
+    <string name="a402">Recharge quantity is less %1$d</string>
+    <string name="a403">Phone number</string>
+    <string name="a404">Correct phone number</string>
+    <string name="a405">Recharge Amount:</string>
+    <string name="a406">Transfer cardholder: **%1$s, Be sure to include the decimal point when sending money\"%2$s\"</string>
+    <string name="a407">Name can not be empty</string>
+    <string name="a408">Recharge Amount(1.00 USD = %1$s CNY)</string>
+    <string name="a409">Tips:\nThe certificate information can not be modified after setting, please fill in my real name information, such as non real name will not be able to trade, account loss will not be able to retrieve the account</string>
+    <string name="a410">discount</string>
+    <string name="a411">Enjoy transaction fee%1$s discount</string>
+    <string name="a412">Rebate Fee</string>
+    <string name="a413">Rebate</string>
+    <string name="a414">Up to share users are%1$s %% fee rebates</string>
+    <string name="a415">Give%1$sCTC credit</string>
+    <string name="a416">VIP donates%1$sCTC points per day,%2$s points%3$s day delivery, can be used to debit transaction fee</string>
+    <string name="a417">C2C</string>
+    <string name="a418">Entrust</string>
+    <string name="a419">History</string>
+    <string name="a420">Latest Price</string>
+    <string name="a421">Failed to obtain the available quantity, please check the network</string>
+    <string name="a422">%1$s Insufficient balance</string>
+    <string name="a424">You are not logged in, log in?</string>
+    <string name="a425">Go to login</string>
+    <string name="a426">Enjoy more exciting information</string>
+    <string name="a427">Login/Register</string>
+    <string name="a428">Click to Login</string>
+    <string name="a429">You are%1$s user,%2$d discount on transaction fee</string>
+    <string name="a430">Exceeds the purchase quantity</string>
+    <string name="a431">Pending orders successful</string>
+    <string name="a432">Buy%1$s</string>
+    <string name="a433">Status</string>
+    <string name="a434">OK to exit APP?</string>
+    <string name="a435">Please to use, expire time：</string>
+    <string name="a436">P2P</string>
+    <string name="a437">%1$dS After Again</string>
+    <string name="a438">Illegal numbers</string>
+    <string name="a439">π Withdrawal
+</string>
+    <string name="a440">Available π:</string>
+    <string name="a441">Please note your Discovery asset balance</string>
+    <string name="a442">Exceeded quantity</string>
+    <string name="a443">Discovery cannot be empty</string>
+    <string name="a444">Bonus</string>
+    <string name="a445">Customer</string>
+    <string name="a446">Share</string>
+    <string name="a447">Vol\t</string>
+    <string name="a448">Available USD:</string>
+    <string name="a449">Tips:\nPlease confirm that the bank account to be bound is owned by you and the bank card account will be used as your receiving account in the transaction</string>
+    <string name="a450">The address cannot be empty</string>
+    <string name="a451">Bank Transfer</string>
+    <string name="a452">Paid for</string>
+    <string name="a453">Already paid</string>
+    <string name="a454">Appeal</string>
+    <string name="a455">Delete</string>
+    <string name="a456">Check the progress</string>
+    <string name="a457">Waiting for buyer confirmation</string>
+    <string name="a458">Buyer confirmed</string>
+    <string name="a459">Seller confirmed</string>
+    <string name="a460">Waiting for the seller to confirm</string>
+    <string name="a461">Pull down to refresh</string>
+    <string name="a462">Refreshing...</string>
+    <string name="a463">Loading...</string>
+    <string name="a464">Release immediately refresh</string>
+    <string name="a465">Refresh completed</string>
+    <string name="a466">Refresh failed</string>
+    <string name="a467">Last update\t</string>
+    <string name="a468">Trend</string>
+    <string name="a469">Press again to exit the APP</string>
+    <string name="a470">Latest Transactions</string>
+    <string name="a471">CTS Purchase</string>
+    <string name="a472">Select the number of purchases</string>
+    <string name="a473">Invitation code</string>
+    <string name="a474">Enter the invitation code</string>
+    <string name="a475">The invitation code is your friend\'s registered mobile number</string>
+    <string name="a476">USD Assets</string>
+    <string name="a477">ETH Assets</string>
+    <string name="a478">Purchase Quantity</string>
+    <string name="a479">Purchase CTS Success</string>
+    <string name="a480">CTS Features</string>
+    <string name="a481">CTS Introduction</string>
+    <string name="a482">CTS (CT Shares) achieved the first blockchain share certification mechanism in the world, used for CTC platform share certificates, participated in platform dividends, and realized a decentralized trading platform. Through blockchain smart contracts, unique algorithmic mechanisms, cryptography, digital signatures, and other technologies to achieve multiple guarantees, the interests of each CTS holder can be made open, fair, fair and irrevocable. The core value of CTS (CT Shares) is the successful application of blockchain technology to the domain of enterprise share certificates to demonstrate smart contracting. It is an application scenario based on physical assets and actual value, and it is a system with a traditional centralized financial system and an incomplete enterprise system. Provide innovative solutions and adapt them perfectly.
+</string>
+    <string name="a483">The first blockchain share certificate mechanism</string>
+    <string name="a484">Regularly held shares Participate in platform dividends
+</string>
+    <string name="a485">Trading with other popular currencies
+</string>
+    <string name="a486">Multi-chain mechanism concurrent transactions
+</string>
+    <string name="a487">Digital Signature Technology Secure the Funds
+</string>
+    <string name="a488">Innovative quantum encryption algorithm
+</string>
+    <string name="a489">Publish Time
+</string>
+    <string name="a490">Total Issued
+</string>
+    <string name="a491">Total Circulation
+</string>
+    <string name="a492">Market Guide Price
+</string>
+    <string name="a493">Official Website
+</string>
+    <string name="a494">Block Query
+</string>
+    <string name="a495">Bonus details
+</string>
+    <string name="a496">Bonus description
+</string>
+    <string name="a497">Bonus type
+</string>
+    <string name="a498">Sharing Award: A user is recommended to open VIP to get 66USD.
+</string>
+    <string name="a499">Service Award: Get VIP10, 5, and 3 service bonuses according to VIP level.
+</string>
+    <string name="a500">Sharing Awards: 50% of sharing rewards for sharing user awards.
+</string>
+    <string name="a501">Lucky Prize: The system will present a fifty-user bonus of 1% and a share bonus.
+</string>
+    <string name="a502">Bonus withdrawal
+</string>
+    <string name="a503">You can withdraw your bonus when you open VIP, and you can view it in your assets after withdrawal.
+</string>
+    <string name="a504">Shear
+</string>
+    <string name="a505">Service
+</string>
+    <string name="a506">Shared
+</string>
+    <string name="a507">Lucky
+</string>
+    <string name="a508">Unconfirmed orders
+</string>
+    <string name="a509">System cancelled
+</string>
+    <string name="a510">User cancelled
+</string>
+    <string name="a511">Customer service processing
+</string>
+    <string name="a512">CTS Subscription
+</string>
+    <string name="a513">Invite Friends
+</string>
+    <string name="a514">Online Service
+</string>
+    <string name="a515">Freeze Explain</string>
+    <string name="a516">Fiat</string>
+    <string name="a517">Token</string>
+    <string name="a518">Asset Details
+</string>
+    <string name="a519">More</string>
+    <string name="a520">Fiat Trades</string>
+    <string name="a521">Date</string>
+    <string name="a522">Type</string>
+    <string name="a523">Price(%1$s)</string>
+    <string name="a524">Illegal numbers
+</string>
+    <string name="a525">Can be viewed in assets after applying for withdrawal
+</string>
+    <string name="a526">According to miner\'s current fee deduction
+</string>
+    <string name="a527">24HVol</string>
+    <string name="a528">network anomaly
+</string>
+    <string name="a529">Amount cannot be 0
+</string>
+    <string name="a530">Crowdfunding price
+</string>
+    <string name="a531">Block query
+</string>
+    <string name="a532">Introduction
+</string>
+    <string name="a533">Detail
+</string>
+    <string name="a534">CTS details
+</string>
+    <string name="a535">Transaction %1$s
+</string>
+    <string name="a536">Remaining Amount
+</string>
+    <string name="a537">Network anomalies, please try again later
+</string>
+    <string name="a538">Nicknames can only include Chinese, English and numbers
+</string>
+    <string name="a539">Entrust</string>
+    <string name="a540">History
+ </string>
+    <string name="a541">认购</string>
+    <string name="a542">营销奖</string>
+    <string name="a543">认购解冻</string>
+    <string name="a544">可用%1$s不足</string>
+    <string name="a545">数量异常</string>
+    <string name="a546">最小提币数量为%1$s</string>
+    <string name="a547">支付宝真实姓名</string>
+    <string name="a548">所属支行</string>
+    <string name="a549">请输入所属支行</string>
+    <string name="a550">您还未绑定银联,是否去绑定?</string>
+    <string name="a551">卡号不能为空</string>
+    <string name="a552">持卡姓名不能为空</string>
+    <string name="a553">所属银行不能为空</string>
+    <string name="a554">所属支行不能为空</string>
+    <string name="a555">银行卡姓名</string>
+    <string name="a556">银行卡号</string>
+    <string name="a557">您还未绑定银行卡,是否去绑定?</string>
+    <string name="a558">客服工作时间:9:00~23:00</string>
+    <string name="a559">微信客服</string>
+    <string name="a560">QQ客服</string>
+    <string name="a561">客服电话</string>
+    <string name="a562">交易额----</string>
+
+</resources>

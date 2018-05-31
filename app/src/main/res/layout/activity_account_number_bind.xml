@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_item"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_zfb"
+            android:layout_width="match_parent"
+            app:drawableLeft="@drawable/zfb"
+            app:title="@string/a3"
+            app:isShowInfo="true"
+            app:info="@string/a4"
+            app:infoColor="@color/textColor2"
+            android:layout_height="wrap_content"/>
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_wx"
+            app:title="@string/a5"
+            app:drawableLeft="@drawable/weixin"
+            android:layout_width="match_parent"
+            app:isShowInfo="true"
+            app:info="@string/a4"
+            app:infoColor="@color/textColor2"
+            android:layout_height="wrap_content"/>
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_yl"
+            app:title="@string/a6"
+            app:drawableLeft="@drawable/yinlian"
+            android:layout_width="match_parent"
+            app:info="@string/a4"
+            app:isLineVisible="false"
+            app:infoColor="@color/textColor2"
+            app:isShowInfo="true"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

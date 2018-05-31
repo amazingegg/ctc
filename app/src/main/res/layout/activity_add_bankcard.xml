@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a10"
+            android:textColor="@color/f000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_card_num"
+            style="@style/edit_style"
+            android:layout_width="match_parent"
+            android:digits="0123456789"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/tv_title"
+            android:hint="@string/a11"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/LineStyle"/>
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a12"
+            android:textColor="@color/f000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/tv_title1"
+            android:hint="@string/a13"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+    <View
+        style="@style/LineStyle"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a14"
+            android:textColor="@color/f000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_bank"
+            style="@style/edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/tv_title2"
+            android:hint="@string/a15"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/LineStyle"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a548"
+            android:textColor="@color/f000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_bank_branch"
+            style="@style/edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/tv_title4"
+            android:hint="@string/a549"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/LineStyle"/>
+    <RelativeLayout
+        android:id="@+id/rl_vc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a16"
+            android:textColor="@color/f000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_vc"
+            style="@style/edit_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:digits="0123456789"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/tv_title3"
+            android:hint="@string/a17"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_get_vc"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/a18"
+            android:textColor="@color/textColor2"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/bt_next"
+        android:text="@string/next"
+        android:layout_marginTop="20dp"
+        style="@style/button_style"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/f888888"
+        android:text="@string/a19"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

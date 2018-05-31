@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyItemView">
+        <!--<attr name="isShowArrow" format="boolean" />-->
+        <!--<attr name="isMandatory" format="boolean" />-->
+        <!--<attr name="isEditable" format="boolean" />-->
+        <attr name="isLineVisible" format="boolean" />
+        <attr name="title" format="string" />
+        <attr name="info" format="string" />
+        <attr name="infoColor" format="color" />
+        <attr name="miv_textColor" format="color" />
+        <attr name="isShowInfo" format="boolean" />
+        <attr name="isShowRightArrow" format="boolean" />
+        <attr name="isShowDrawable" format="boolean" />
+        <attr name="drawableLeft" format="reference" />
+        <attr name="miv_leftMargin" format="integer" />
+        <!--<attr name="text" format="string" />-->
+        <!--<attr name="editPading" format="dimension" />-->
+    </declare-styleable>
+
+    <declare-styleable name="PswInputView">
+        <attr name="count" format="integer"/>
+        <attr name="border_color" format="color"/>
+        <attr name="dot_color" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="EditView">
+        <attr name="evHint" format="string"/>
+        <attr name="evPassWord" format="boolean"/>
+        <attr name="evInfo" format="string"/>
+        <attr name="evIsLineVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ItemView">
+        <attr name="lineVisible" format="boolean" />
+        <attr name="showInfo2" format="boolean" />
+        <attr name="ivTitle" format="string" />
+        <attr name="ivTitleColor" format="reference" />
+        <attr name="ivInfoColor" format="reference"/>
+        <attr name="ivInfo" format="string" />
+        <attr name="ivInfo2" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="InputBox">
+
+        <attr name="ibTitle" format="string"/>
+        <attr name="ibHint" format="string"/>
+        <attr name="ibCurrency" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="VipPackageView">
+        <attr name="time" format="string"/>
+        <attr name="content" format="string"/>
+        <attr name="price" format="string"/>
+    </declare-styleable>
+
+    <attr name="listDivider" format="reference"/>
+
+
+</resources>

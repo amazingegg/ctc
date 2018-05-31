@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.atkj.ctc">
+
+
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 二维码相关权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <!--<uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="true"
+        tools:replace="android:name">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.atkj.ctc.fileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.FindPassWordActivity"/>
+        <activity android:name=".activity.BuyActivity"/>
+        <activity android:name=".activity.ConfirmOrderActivity"/>
+        <activity android:name=".activity.CompleteOrderActivity"/>
+        <activity android:name=".activity.PostBuyActivity"/>
+        <activity android:name=".activity.PostBuyConfirmActivity"/>
+        <activity android:name=".activity.AssetsActivity"/>
+        <activity android:name=".activity.MyOrderActivity"/>
+        <activity android:name=".activity.TranslucentActivity"
+            android:theme="@style/myTransparent"/>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.PayPassWordActivity"/>
+        <activity android:name=".activity.PaiRechargeActivity"/>
+        <activity android:name=".activity.ModifyPwdActivity"/>
+        <activity android:name=".activity.PersonalInfoActivity"/>
+        <activity android:name=".activity.AboutActivity"/>
+        <activity android:name=".activity.CustomerServiceActivity"/>
+        <activity android:name=".activity.OrderDetailActivity"/>
+        <activity android:name=".activity.NoviceTutorialActivity"/>
+        <activity android:name=".activity.VerifiedActivity" />
+        <activity android:name=".activity.VerifiedDetailActivity" />
+        <activity android:name=".activity.AccountNumberBindActivity" />
+        <activity android:name=".activity.AccountNumberBindDetailActivity" />
+        <activity android:name=".activity.QuotationActivity" />
+        <activity android:name=".activity.KMapActivity" />
+        <activity android:name=".activity.USDRechargeActivity" />
+        <activity android:name=".activity.USDExtractActivity" />
+        <activity android:name=".activity.AddBankCardActivity" />
+        <activity android:name=".activity.MyIntegralActivity" />
+        <activity android:name=".activity.MemberActivity" />
+        <activity android:name=".activity.WebViewActivity" />
+        <activity android:name=".activity.ShareActivity"/>
+        <activity android:name=".activity.MyBonusActivity"/>
+        <activity android:name=".activity.VipDetailActivity" />
+        <activity android:name=".activity.BTCRechargeActivity" />
+        <activity android:name=".activity.BTCExtractActivity" />
+        <activity android:name=".scancode.CommonScanActivity" />
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".activity.LanguageActivity" />
+        <activity android:name=".activity.PaiExtractActivity" />
+        <activity android:name=".activity.CTSPurchaseActivity" />
+        <activity android:name=".activity.FreezeInstructionsActivity" />
+        <activity android:name=".activity.BonusDetailActivity" />
+        <activity android:name=".activity.CurrencyDetailActivity" />
+        <activity android:name=".activity.CTSDetail" />
+
+        <service android:name=".utils.DownloadService" />
+    </application>
+
+</manifest>

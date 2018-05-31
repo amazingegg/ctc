@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/selector_item_press"
+    android:layout_height="56dp">
+
+    <View
+        android:id="@+id/line"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="@style/LineStyle"/>
+
+    <com.atkj.ctc.views.CustomTextView
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_user"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="联联"
+        android:textColor="@color/f333333"
+        />
+
+    <com.atkj.ctc.views.CustomTextView
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="20"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/f333333"
+        />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/ll_price"
+        android:orientation="vertical"
+        android:layout_marginLeft="175dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.atkj.ctc.views.CustomTextView
+            android:id="@+id/tv_price"
+            android:includeFontPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="100.00"
+            android:textColor="@color/textColor2"/>
+
+    </LinearLayout>
+
+    <com.atkj.ctc.views.CustomTextView
+        android:id="@+id/tv_payment"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="支付宝"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:layout_height="wrap_content"
+        android:layout_width="66dp"/>
+
+    <View
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="@style/LineStyle"/>
+
+
+
+
+</RelativeLayout>

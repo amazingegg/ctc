@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                app:indicator_width="7dp"
+                app:indicator_height="7dp"
+                android:layout_height="173dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_notice"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/iv_notice"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/notice" />
+
+                <com.atkj.ctc.views.VerticalTextView
+                    android:id="@+id/tv_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/iv_notice"
+                    android:text=""
+                    android:textColor="@color/f666666"
+                    android:textSize="12sp" />
+
+                <View style="@style/LineStyle" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/ll_group"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_my_bonus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:textSize="12sp"
+                    android:drawableTop="@drawable/bonus1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a444" />
+
+                <TextView
+                    android:id="@+id/tv_new_teach"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:textSize="12sp"
+                    android:drawableTop="@drawable/xinshou"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a217" />
+
+                <TextView
+                    android:id="@+id/tv_cus_service"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dp"
+                    android:textSize="12sp"
+                    android:drawableTop="@drawable/kefu"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a445" />
+
+                <TextView
+                    android:id="@+id/tv_shear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/fenxiang"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a446" />
+
+            </LinearLayout>
+
+            <!--大盘交易-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+               <!-- <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/a417"
+                        android:textColor="@color/f333333"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_market_more"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/a220"
+                        android:textColor="@color/f666666"
+                        android:textSize="12sp" />
+                </RelativeLayout>-->
+
+                <com.androidkun.xtablayout.XTabLayout
+                    android:id="@+id/tab_layout"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    app:xTabSelectedTextColor="@color/f274057"
+                    app:xTabTextColor="@color/f8794A2"
+                    app:xTabMode="scrollable"
+                    app:xTabIndicatorWidth="20dp"
+                    app:xTabIndicatorColor="@color/textColor2"
+                    app:xTabIndicatorHeight="2dp"
+                    android:layout_height="45dp">
+
+                </com.androidkun.xtablayout.XTabLayout>
+
+                <View style="@style/LineStyle" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/a165"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="154dp"
+                        android:text="@string/a166"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/a167"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/LineStyle" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                </android.support.v7.widget.RecyclerView>
+
+                <android.support.v7.widget.RecyclerView
+                    android:visibility="gone"
+                    android:id="@+id/rv_buy_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                </android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+            <!--我要买-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/a520"
+                        android:textColor="@color/f333333"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/a220"
+                        android:textColor="@color/f666666"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                <View style="@style/LineStyle" />
+                <RadioGroup
+                    android:id="@+id/rg_group"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <RadioButton
+                        android:gravity="center"
+                        android:id="@+id/cb_buy_pai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="16dp"
+                        android:button="@null"
+                        android:text="@string/a221"
+                        android:textSize="15sp"
+                        android:textColor="@drawable/buy_sell_button_selector" />
+
+                    <RadioButton
+                        android:gravity="center"
+                        android:id="@+id/cb_sell_pai"
+                        android:layout_width="wrap_content"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@+id/cb_buy_pai"
+                        android:textSize="15sp"
+                        android:button="@null"
+                        android:text="@string/a224"
+                        android:textColor="@drawable/buy_sell_button_selector" />
+
+
+                    <RelativeLayout
+                        android:paddingLeft="16dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/ll_currency"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:id="@+id/tv_currency"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text="---"
+                                android:textColor="@color/f484848"
+                                android:textSize="16sp" />
+
+                            <ImageView
+                                android:id="@+id/iv_down_allow"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:src="@drawable/qiehuan" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                </RadioGroup>
+
+                <View style="@style/LineStyle" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/a222"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dp"
+                        android:text="@string/a44"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="175dp"
+                        android:text="@string/a223"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/a34"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/LineStyle" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_p2p_buy"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_p2p_sell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+            <!--我要卖-->
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/a224"
+                        android:textColor="@color/f333333"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/a220"
+                        android:textColor="@color/f666666"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View style="@style/LineStyle" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/a222"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dp"
+                        android:text="@string/a44"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="175dp"
+                        android:text="@string/a223"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/a34"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View style="@style/LineStyle" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_p2p_sell"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

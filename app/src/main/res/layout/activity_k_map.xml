@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#494949" />
+
+    <LinearLayout
+        android:id="@+id/ll_status"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#30343C"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="----"
+                android:textColor="@color/chart_green"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a71"
+                    android:textColor="@color/f626262"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tv_extent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="@color/chart_white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a72"
+                    android:textColor="@color/f626262"
+                    android:textSize="12sp"
+                    android:layout_marginTop="13dp" />
+                <TextView
+                    android:id="@+id/tv_vol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="@color/chart_white"
+                    android:textSize="12sp"
+                    android:layout_marginTop="13dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a73"
+                    android:textColor="@color/f626262"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tv_low"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="@color/chart_white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a74"
+                    android:textColor="@color/f626262"
+                    android:textSize="12sp"
+                    android:layout_marginTop="13dp" />
+                <TextView
+                    android:id="@+id/tv_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="@color/chart_white"
+                    android:textSize="12sp"
+                    android:layout_marginTop="13dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#494949" />
+
+    <com.github.tifezh.kchartlib.chart.KChartView
+        android:id="@+id/kchart_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.github.tifezh.kchartlib.chart.KChartView>
+    
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout_time"
+        android:layout_width="match_parent"
+        android:background="@color/f2F333A"
+        app:tabIndicatorColor="@color/fEF6001"
+        app:tabTextColor="@color/f626262"
+        app:tabSelectedTextColor="@color/white"
+        android:layout_height="30dp">
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:text="@string/a75"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:text="@string/a76"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:text="@string/a77"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:text="@string/a78"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:text="@string/a79"
+            android:layout_height="wrap_content" />
+
+
+    </android.support.design.widget.TabLayout>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_buy"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/selecter_login_bg"-->
+            <!--android:text="买入"-->
+            <!--android:textColor="@color/white" />-->
+        <!--<Button-->
+            <!--android:id="@+id/bt_sell"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/selecter_login_bg_sell"-->
+            <!--android:text="卖出"-->
+            <!--android:textColor="@color/white" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

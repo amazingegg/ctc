@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="100.00"
+                    android:textColor="@color/textColor2"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_price"
+                    android:text="@string/a43"
+                    android:textColor="@color/fbbbbbb" />
+
+                <View style="@style/LineStyle" />
+
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:text=""
+                    android:textColor="@color/f666666"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_maijia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="xxx"
+                app:ivInfo2="xxx"
+                app:ivInfoColor="@color/textColor2"
+                app:ivTitle="xxx"
+                app:showInfo2="true" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_alipay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+
+                app:ivInfoColor="@color/textColor2"
+                app:ivTitle="@string/a50"
+                app:showInfo2="true" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+                app:ivInfoColor="@color/textColor2"
+                app:showInfo2="true"
+
+                app:ivTitle="@string/a547" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+                app:ivInfoColor="@color/textColor2"
+                app:showInfo2="true"
+                app:ivTitle="@string/a555" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_bank_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+                app:ivInfoColor="@color/textColor2"
+                app:showInfo2="true"
+                app:ivTitle="@string/a556" />
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+                app:ivInfoColor="@color/textColor2"
+                app:showInfo2="true"
+                app:ivTitle="@string/a14" />
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_bank_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="@string/a49"
+                app:ivInfoColor="@color/textColor2"
+                app:showInfo2="true"
+                app:ivTitle="@string/a548" />
+
+            <com.atkj.ctc.views.ItemView
+                android:visibility="gone"
+                android:id="@+id/iv_pay_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo=""
+                app:ivTitle="付款参考号"
+                app:lineVisible="false" />
+
+            <TextView
+                android:id="@+id/tv_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="80dp"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/a51"
+                android:textColor="@color/f666666"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/bt_buy"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/a52"
+        android:layout_alignParentBottom="true"
+        style="@style/button_style"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

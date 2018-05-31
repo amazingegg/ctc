@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--<TextView
+        android:id="@+id/yanzhengma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="555"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/textColor2"/>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/cb_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="@string/a80"
+            android:textColor="@color/text_color_gray"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cb_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/cb_login"
+            android:button="@null"
+            android:text="@string/a81"
+            android:textColor="@color/text_color_gray"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--登录-->
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_login_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a64" />
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a82"
+            app:evInfo="@string/a83"
+            app:evPassWord="true" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="33dp"
+            style="@style/button_style"
+            android:text="@string/a80"
+            />
+    </LinearLayout>
+    <!--注册-->
+    <LinearLayout
+
+        android:id="@+id/ll_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:orientation="vertical">
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a84" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/ev_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="33dp"
+                android:background="@null"
+                android:digits="0123456789"
+                android:hint="@string/a64"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColorHint="@color/textColorHint"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/line"
+                style="@style/LineStyle"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp" />
+
+        </RelativeLayout>
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_getVc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a85"
+            app:evInfo="@string/a18" />
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a86"
+            />
+
+        <com.atkj.ctc.views.EditView
+            android:id="@+id/ev_invite_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:evHint="@string/a87" />
+
+        <TextView
+            android:id="@+id/bt_register"
+            style="@style/button_style"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a81"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

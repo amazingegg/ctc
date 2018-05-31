@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:background="@color/white"
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        app:tabTextColor="@color/f999999"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/textColor2"
+        app:tabIndicatorColor="@color/textColor2"
+        android:layout_height="45dp">
+
+    </android.support.design.widget.TabLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        <RelativeLayout
+            android:layout_marginTop="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+
+                android:text="@string/a39"
+                android:textColor="@color/textColor2"
+                android:textSize="18sp" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <com.atkj.ctc.views.InputBox
+            android:id="@+id/ib_price"
+            app:ibHint="@string/a53"
+            app:ibCurrency="CNY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+
+        <com.atkj.ctc.views.InputBox
+            android:id="@+id/ib_cont"
+            app:ibHint="@string/a44"
+            app:ibCurrency="@string/a157"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_mairu"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp"
+                android:text="买入:"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="100.00"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"/>
+            <TextView
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_keyong"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_keyong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp"
+                android:text="@string/a46"/>
+            <TextView
+                android:id="@+id/tv_available"
+                android:layout_toRightOf="@+id/tv_keyong"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="100.00"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_dongjie"
+                android:layout_toLeftOf="@+id/tv_freeze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp"
+                android:text="@string/a47"/>
+            <TextView
+                android:id="@+id/tv_freeze"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/bt_buy"
+            android:text="@string/a48"
+            style="@style/button_style"/>
+
+    </LinearLayout>
+
+</LinearLayout>

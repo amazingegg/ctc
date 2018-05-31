@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+
+        <!--充值信息页-->
+        <LinearLayout
+            android:id="@+id/ll_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/a134"
+                    android:textColor="@color/f000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_cont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/title"
+                    android:background="@null"
+                    android:digits="0123456789."
+                    android:hint="@string/a135"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+                <View style="@style/LineStyle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/a136"
+                    android:textColor="@color/f000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_discovery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/title2"
+                    android:background="@null"
+                    android:hint="@string/a137"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+                <View style="@style/LineStyle" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/a138"
+                    android:textColor="@color/f000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/title3"
+                    android:background="@null"
+                    android:digits="0123456789"
+                    android:hint="@string/a139"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bt_next"
+                style="@style/button_style"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/next" />
+        </LinearLayout>
+        <!--充值页-->
+        <LinearLayout
+            android:id="@+id/ll_recharge2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_recharge_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="123456"
+                app:ivTitle="@string/a140" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/recharge_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="123456"
+                app:ivTitle="@string/a141" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_discovery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="123456"
+                app:ivTitle="@string/a136" />
+
+            <com.atkj.ctc.views.ItemView
+                android:id="@+id/iv_conn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ivInfo="123456"
+                app:ivTitle="@string/a142"
+                app:lineVisible="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/remark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/remark2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/remark3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <View
+                    style="@style/LineStyle"
+                    android:layout_marginTop="10dp" />
+
+
+                <TextView
+                    android:id="@+id/remark5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/remark6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/remark7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="请在"
+                    android:textColor="@color/f333333"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/remark8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请在"
+                        android:textColor="@color/f333333"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_copy_id"
+                        android:layout_width="68dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shap_input_box_red"
+                        android:gravity="center"
+                        android:text="@string/a143"
+                        android:textColor="@color/textColor2"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <View
+                    style="@style/LineStyle"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/remark9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a144"
+                        android:textColor="@color/f333333"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/et_transfer_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/title"
+                        android:background="@null"
+                        android:hint="@string/a145"
+                        android:textCursorDrawable="@null"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bt_complete"
+                style="@style/button_style"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/a146" />
+
+        </LinearLayout>
+        <!--发布成功页面-->
+        <LinearLayout
+            android:id="@+id/ll_transfer_success"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_success"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/chenggong" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/a147"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/a148"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/a149"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

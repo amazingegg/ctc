@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_daohang"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <View style="@style/LineStyle"/>
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@drawable/home_button_selector"
+                android:text="@string/a88" />
+
+            <RadioButton
+                android:id="@+id/rb_p2p"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@drawable/p2p_button_selector"
+                android:text="@string/a516" />
+
+            <RadioButton
+                android:id="@+id/rb_transaction"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@drawable/transaction_button_selector"
+                android:text="@string/a517" />
+
+            <RadioButton
+                android:id="@+id/rb_assets"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@drawable/assets_button_selector"
+                android:text="@string/a90" />
+
+            <RadioButton
+                android:id="@+id/rb_my"
+                style="@style/MainButtonStyle"
+                android:drawableTop="@drawable/my_button_selector"
+                android:text="@string/a100" />
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>

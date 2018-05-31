@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="line">#FFE3E3E3</color>
+    <color name="text_color">#333333</color>
+    <color name="bg">#F4F4F4</color>
+    <color name="textColor2">#FF5D5A</color>
+    <color name="text_color_gray">#888888</color>
+    <color name="textColorHint">#C0C0C0</color>
+    <color name="bg_color_red">#FF5D5A</color>
+    <color name="bg_color_pink">#FEA7A5</color>
+    <color name="f666666">#666666</color>
+    <color name="f333333">#333333</color>
+    <color name="f000000">#000000</color>
+    <color name="textColor_green">#37AE7E</color>
+    <color name="fbbbbbb">#BBBBBB</color>
+    <color name="f888888">#888888</color>
+    <color name="fc0c0c0">#C0C0C0</color>
+    <color name="f70000000">#B3000000</color>
+    <color name="f151515">#151515</color>
+    <color name="f656D77">#656D77</color>
+
+    <color name="transparent">#B3000000</color>
+    <color name="f33ffffff">#33000000</color>
+    <color name="f00000000">#00000000</color>
+    <color name="textColor_green2">#8037AE7E</color>
+    <color name="line_color">#cccccc</color>
+    <color name="edittext_line_color">#000000</color>
+
+    <!--Kchart-->
+    <color name="chart_red">#DF3536</color>
+    <color name="chart_green">#35DF7E</color>
+
+    <color name="chart_ma5">#18CCF6</color>
+    <color name="chart_ma10">#FE5EDF</color>
+    <color name="chart_ma20">#E7A520</color>
+    <color name="chart_white">#fff</color>
+
+    <color name="chart_background">#202326</color>
+    <color name="chart_grid_line">#353941</color>
+    <color name="chart_text">#B1B2B6</color>
+    <color name="chart_selector">#c830343C</color>
+    <color name="chart_tab_background">#30343C</color>
+    <color name="chart_tab_indicator">#FF6601</color>
+    <!--Kchart-->
+    <color name="scan_bg">#7f000000</color>
+
+    <color name="f2F333A">#2F333A</color>
+    <color name="fEF6001">#EF6001</color>
+    <color name="f626262">#626262</color>
+    <color name="press_bg">#F0F0F0</color>
+    <color name="f6087CF">#6087CF</color>
+    <color name="ff4f3a2">#F4F3A2</color>
+    <color name="fb5a37e">#B5A37E</color>
+    <color name="f6c6049">#6c6049</color>
+    <color name="fC1A881">#C1A881</color>
+    <color name="f999999">#999999</color>
+    <color name="ff6f7fa">#F6F7FA</color>
+    <color name="f484848">#484848</color>
+    <color name="f274057">#274057</color>
+    <color name="f8794A2">#8794A2</color>
+    <color name="fC4CED3">#C4CED3</color>
+    <color name="f2A4159">#2A4159</color>
+</resources>

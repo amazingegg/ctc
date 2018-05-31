@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="100.00"
+            android:textColor="@color/textColor2"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_price"
+            android:text="CNY"
+            android:textColor="@color/fbbbbbb" />
+
+        <View style="@style/LineStyle" />
+
+    </RelativeLayout>
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="@string/a33"
+        app:ivTitle="@string/a34" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_aera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="@string/a36"
+        app:ivTitle="@string/a35" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="@string/a38"
+        app:ivTitle="@string/a37"
+        app:lineVisible="false" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:id="@+id/tv_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/a39"
+                android:textColor="@color/textColor2"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+
+        <com.atkj.ctc.views.InputBox
+            android:id="@+id/ib_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:ibCurrency="@string/a43"
+            app:ibHint="@string/a42" />
+
+
+        <com.atkj.ctc.views.InputBox
+            android:id="@+id/ib_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:ibCurrency="@string/a45"
+            app:ibHint="@string/a44" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_mairu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="买入:"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="100.00"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="/"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_keyong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/tv_keyong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a46"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_keyong"
+                android:text="0"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/tv_dongjie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_freeze"
+                android:text="@string/a47"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_freeze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:text="0"
+                android:textColor="@color/text_color" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/bt_buy"
+            android:text="@string/a48"
+            style="@style/button_style"/>
+
+
+    </LinearLayout>
+</LinearLayout>

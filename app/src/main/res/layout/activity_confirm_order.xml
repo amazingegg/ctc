@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_image"
+            android:text="xxx"
+            android:textColor="@color/f666666"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_conn_maijia"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:text="xxx"
+            android:textColor="@color/textColor2"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <View style="@style/LineStyle" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_buy_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="1"
+        app:ivInfoColor="@color/textColor2"
+        app:ivTitle="xxx" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="100.00 CNY"
+        app:ivInfoColor="@color/textColor2"
+        app:ivTitle="@string/a53" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="xxx"
+        app:ivTitle="@string/a34" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_aera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo="@string/a36"
+        app:ivTitle="@string/a35" />
+
+    <com.atkj.ctc.views.ItemView
+        android:id="@+id/iv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ivInfo=""
+        app:ivTitle="@string/a37" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a54" />
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/a55"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+  <!--  <View style="@style/LineStyle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="积分(10积分)"
+            android:layout_centerVertical="true"/>
+
+        <com.atkj.ctc.views.SwitchView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+-->
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg" />
+
+
+    <TextView
+        android:id="@+id/bt_enter"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/a56"
+        style="@style/button_style"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

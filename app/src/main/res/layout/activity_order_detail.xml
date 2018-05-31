@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/a125"
+                android:textColor="@color/f333333"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_below="@+id/title1"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="后未付款，订单将自动取消"
+                android:textColor="@color/f888888"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_image"
+                android:text="联联"
+                android:textColor="@color/f666666"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_conn_maijia"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="联系卖家"
+                android:textColor="@color/textColor2"
+                android:textSize="12sp" />
+
+            <View style="@style/LineStyle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@color/white"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/danbao"
+                android:drawablePadding="5dp"
+                android:text="@string/a126"
+                android:textColor="@color/f888888"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_info"
+                android:text="@string/a127"
+                android:textColor="@color/text_color"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="100CNY"
+                android:textColor="@color/text_color"
+                android:textSize="18sp" />
+
+            <View style="@style/LineStyle" />
+        </RelativeLayout>
+
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_buy_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="1"
+            app:ivInfoColor="@color/textColor2"
+            app:ivTitle="@string/a128" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="---"
+            app:ivTitle="@string/a34" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_alipay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+
+            app:ivInfoColor="@color/textColor2"
+            app:ivTitle="@string/a50"
+            app:showInfo2="true" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+            app:ivInfoColor="@color/textColor2"
+            app:showInfo2="true"
+
+            app:ivTitle="@string/a547" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+            app:ivInfoColor="@color/textColor2"
+            app:showInfo2="true"
+            app:ivTitle="@string/a555" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_bank_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+            app:ivInfoColor="@color/textColor2"
+            app:showInfo2="true"
+            app:ivTitle="@string/a556" />
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+            app:ivInfoColor="@color/textColor2"
+            app:showInfo2="true"
+            app:ivTitle="@string/a14" />
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_bank_branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="@string/a49"
+            app:ivInfoColor="@color/textColor2"
+            app:showInfo2="true"
+            app:ivTitle="@string/a548" />
+
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ivInfo="2017-12-12"
+            app:ivTitle="@string/a130" />
+        <com.atkj.ctc.views.ItemView
+            android:id="@+id/iv_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineVisible="false"
+            app:ivInfo="订单备注订单备注订单备注订单备注订单备注订单备注订单备注订单备注订单备注订单备注"
+
+            android:layout_marginBottom="50dp"
+            app:ivTitle="@string/a131" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_2btn"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bt_enter2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/shap_input_box_gray"
+                android:text="@string/a132"
+                android:textColor="@color/f666666" />
+
+            <TextView
+                android:id="@+id/bt_enter3"
+                android:layout_marginLeft="13dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/selecter_login_bg"
+                android:text="@string/a133"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

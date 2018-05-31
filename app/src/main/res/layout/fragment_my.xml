@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <!--头布局-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/china"
+                    />
+                <TextView
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:id="@+id/switch_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="简体中文"
+                    android:textColor="@color/f274057"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/my_rightsmall"
+                    />
+            </LinearLayout>
+
+
+            <!-- <TextView
+                 android:layout_width="37dp"
+                 android:layout_height="25dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginTop="34dp"
+                 android:text="我的"
+                 android:textColor="@color/white"
+                 android:textSize="18sp" />-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <!--<ImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/user1" />-->
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi,181****2382"
+                    android:textColor="@color/f274057"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/tv_uid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginTop="10dp"
+                    android:text="UID:"
+                    android:textColor="@color/f8794A2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/tv_uid"
+                    android:text="12345678"
+                    android:textColor="@color/f8794A2"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/ll_myorder"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/selector_item_press"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@drawable/my_dingdan"
+                    android:drawablePadding="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a231"
+                    android:textColor="@color/f274057"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_mypost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_item_press"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableTop="@drawable/my_fabu"
+                    android:drawablePadding="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/a232"
+                    android:textColor="@color/f274057"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_cts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/selector_item_press"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:drawableTop="@drawable/my_rengou"
+                        android:drawablePadding="9dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/a512"
+                        android:textColor="@color/f274057"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginStart="55dp"
+                    android:layout_width="28dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/my_new" />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/bg"/>
+        <ImageView
+            android:id="@+id/iv_member"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vip4" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/bg"/>
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_integral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:isShowRightArrow="false"
+            app:drawableLeft="@drawable/my_jifen"
+            app:isShowDrawable="true"
+            app:isLineVisible="false"
+            app:isShowInfo="true"
+            app:miv_leftMargin="14"
+            app:miv_textColor="@color/f274057"
+            app:title="@string/a233" />
+
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_bonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:drawableLeft="@drawable/my_jiangjin"
+            app:isShowRightArrow="false"
+            app:isShowDrawable="true"
+            app:miv_leftMargin="14"
+            app:miv_textColor="@color/f274057"
+            app:isLineVisible="false"
+            app:isShowInfo="true"
+            app:title="@string/a110" />
+
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:drawableLeft="@drawable/my_yaoqing"
+            app:isShowRightArrow="false"
+            app:miv_leftMargin="14"
+            app:isLineVisible="false"
+            app:isShowDrawable="true"
+            app:miv_textColor="@color/f274057"
+            app:isShowInfo="true"
+            app:title="@string/a177" />
+
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:drawableLeft="@drawable/my_bangzhu"
+            app:isShowDrawable="true"
+            app:miv_leftMargin="14"
+            app:isShowRightArrow="false"
+            app:miv_textColor="@color/f274057"
+            app:isShowInfo="true"
+            app:isLineVisible="false"
+            app:title="@string/a234" />
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_customer"
+            app:title="@string/a514"
+            app:isShowDrawable="true"
+            app:drawableLeft="@drawable/my_kefu"
+            app:miv_leftMargin="14"
+            android:layout_width="match_parent"
+            app:isShowInfo="true"
+            app:isLineVisible="false"
+            app:isShowRightArrow="false"
+            app:miv_textColor="@color/f274057"
+            android:layout_height="wrap_content"/>
+        <com.atkj.ctc.views.MyItemView
+            android:id="@+id/miv_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:drawableLeft="@drawable/my_shezhi"
+            app:miv_textColor="@color/f274057"
+            app:miv_leftMargin="14"
+            app:isLineVisible="false"
+            app:isShowDrawable="true"
+            app:isShowRightArrow="false"
+            app:isShowInfo="true"
+            app:title="@string/a235" />
+
+    </LinearLayout>
+</ScrollView>

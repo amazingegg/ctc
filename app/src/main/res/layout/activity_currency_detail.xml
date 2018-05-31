@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_top_2"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/white"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/last_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="----"
+                    android:textColor="@color/textColor2"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/last_price_rmb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/last_price"
+                    android:layout_marginTop="5dp"
+                    android:text="=0.000"
+                    android:textColor="@color/fC4CED3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_extent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/last_price"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/last_price_rmb"
+                    android:text="+0.00%"
+                    android:textColor="@color/textColor2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/hight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="208dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/a74"
+                    android:textColor="@color/fC4CED3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/low"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hight"
+                    android:layout_marginStart="208dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/a73"
+                    android:textColor="@color/fC4CED3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_vol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/low"
+                    android:layout_marginTop="10dp"
+                    android:text="----"
+                    android:textColor="@color/f2A4159"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_hight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:text="----"
+                    android:textColor="@color/f2A4159"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_low"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/hight"
+                    android:layout_marginTop="10dp"
+                    android:text="----"
+                    android:textColor="@color/f2A4159"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/vol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/low"
+                    android:layout_marginStart="208dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/a527"
+                    android:textColor="@color/fC4CED3"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:paddingEnd="16dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tab_layout_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="36dp"
+                    android:background="@color/white"
+                    app:tabIndicatorColor="@color/fEF6001"
+                    app:tabIndicatorHeight="0dp"
+                    app:tabSelectedTextColor="@color/f274057"
+                    app:tabTextColor="@color/f626262">
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a75" />
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a76" />
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a77" />
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a78" />
+
+                    <android.support.design.widget.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a79" />
+                </android.support.design.widget.TabLayout>
+
+                <ImageView
+                    android:id="@+id/iv_full_screen"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/quanpin" />
+
+
+            </LinearLayout>
+
+
+            <com.github.tifezh.kchartlib.chart.KChartView
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/kchart_view"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                >
+
+            </com.github.tifezh.kchartlib.chart.KChartView>
+
+
+            <LinearLayout
+
+                android:id="@+id/ll_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.androidkun.xtablayout.XTabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:xTabIndicatorWidth="30dp"
+                    app:xTabIndicatorHeight="2dp"
+                    app:xTabIndicatorColor="@color/textColor2"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white">
+
+                    <com.androidkun.xtablayout.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="成交" />
+
+                    <com.androidkun.xtablayout.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="简介" />
+                </com.androidkun.xtablayout.XTabLayout>
+
+                <include layout="@layout/part_bottom" />
+
+                <include layout="@layout/layout_part_introduction" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:paddingBottom="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/buy"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/selecter_login_bg_sell"
+            android:gravity="center"
+            android:text="----"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sell"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/selecter_login_bg"
+
+            android:gravity="center"
+            android:text="----"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

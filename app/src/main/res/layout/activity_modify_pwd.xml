@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <com.atkj.ctc.views.EditView
+        android:id="@+id/ev_old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:evPassWord="true"
+        app:evHint="@string/a107" />
+
+    <com.atkj.ctc.views.EditView
+        android:id="@+id/ev_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:evPassWord="true"
+        app:evHint="@string/a108" />
+
+    <com.atkj.ctc.views.EditView
+        android:id="@+id/ev_new_pwd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:evHint="@string/a109"
+        app:evPassWord="true"
+        app:evIsLineVisible="false" />
+
+    <TextView
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_enter"
+        android:text="@string/a56"
+        style="@style/button_style"
+        />
+
+</LinearLayout>

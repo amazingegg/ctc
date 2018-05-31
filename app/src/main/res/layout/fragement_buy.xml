@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+
+        <TextView
+            android:id="@+id/available_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/available"
+            android:text="0.00"
+            android:textColor="@color/f000000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/buy_count_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/buy_count_2"
+            android:text="@string/a210"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/buy_count_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:text="0.00"
+            android:textColor="@color/f000000"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+
+    <!--<LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/height0"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/shangla"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/a211"
+            android:textColor="@color/f666666"
+            android:textSize="16sp" />
+    </LinearLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/selector_item_press"
+    >
+
+    <LinearLayout
+
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.atkj.ctc.views.CustomTextView
+                android:layout_marginLeft="16dp"
+                android:id="@+id/tv_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="---"
+                android:textColor="@color/f000000"
+                android:textSize="14sp" />
+
+            <com.atkj.ctc.views.CustomTextView
+                android:id="@+id/tv_currency2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_currency"
+
+                android:text=" / ---"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="12sp" />
+
+            <com.atkj.ctc.views.CustomTextView
+                android:id="@+id/new_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="154dp"
+                android:text="---"
+                android:textColor="@color/f000000"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_top">
+
+            <com.atkj.ctc.views.CustomTextView
+                android:id="@+id/tv_vol"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="成交量 ---"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="12sp" />
+
+            <com.atkj.ctc.views.CustomTextView
+                android:id="@+id/new_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="154dp"
+                android:text="¥ ---"
+                android:textColor="@color/fbbbbbb"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.atkj.ctc.views.CustomTextView
+        android:id="@+id/tv_present"
+        android:layout_marginRight="16dp"
+        android:layout_width="70dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="@color/textColor2"
+        android:text="---%"
+        android:textColor="@color/white" />
+
+    <View style="@style/LineStyle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+</RelativeLayout>

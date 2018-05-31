@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/part_bottom"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="16dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/f888888"
+            android:text="@string/a212"
+            android:textSize="14sp"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/price_entrust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/f888888"
+            android:text="@string/a420"
+            android:textSize="14sp"
+            android:layout_marginLeft="140dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/f888888"
+            android:text="@string/a44"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:layout_marginLeft="215dp"
+            />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="220dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+   <!-- <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/empty1"/>
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a216"
+            android:textColor="@color/f888888"
+            android:layout_marginBottom="20dp"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+    </LinearLayout>-->
+
+</LinearLayout>

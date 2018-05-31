@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:background="@color/white"
+    android:paddingRight="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="17dp"
+        android:id="@+id/title_zhekou"
+        android:text="@string/a204"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/f333333"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_table"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/shap_table"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/fC1A881"
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="@string/a205"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="14sp"
+                android:text="等级"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="VIP"
+                android:textSize="12sp"
+                android:textColor="@color/fC1A881"
+                android:gravity="center"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/fC1A881"/>
+
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/content1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="等级"
+                android:textColor="@color/f333333"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fC1A881"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="VIP1"
+                android:textSize="12sp"
+                android:textColor="@color/fC1A881"
+                android:gravity="center"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/fC1A881"/>
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="等级"
+                android:textColor="@color/f333333"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fC1A881"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="VIP2"
+                android:textSize="12sp"
+                android:textColor="@color/fC1A881"
+                android:gravity="center"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/fC1A881"/>
+
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="0dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="等级"
+                android:textColor="@color/f333333"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fC1A881"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="VIP3"
+                android:textColor="@color/fC1A881"
+                android:textSize="12sp"
+                android:gravity="center"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/fC1A881"/>
+
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:text="等级"
+                android:textColor="@color/f333333"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_jifen"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/f888888"/>
+
+
+
+
+</LinearLayout>

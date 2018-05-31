@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:paddingTop="60dp"
+        android:id="@+id/ll_bind_detail"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/zfb_large" />
+
+        <TextView
+            android:id="@+id/binded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/a7"
+            android:textColor="@color/f000000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/a8"
+            android:textColor="@color/f888888"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bt_enter"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            style="@style/button_style"
+            android:text="@string/a9"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_bind"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_name"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:background="@null"
+                android:hint="@string/a187"
+                android:textCursorDrawable="@null" />
+
+            <View style="@style/LineStyle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_id"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:hint="@string/a203"
+                android:textCursorDrawable="@null" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/bt_bind_enter"
+            android:text="@string/a56"
+            style="@style/button_style"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
