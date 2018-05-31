@@ -89,6 +89,8 @@ public class AccountNumberBindDetailActivity extends ToobarActivity {
 
 
 
+
+
     }
 
     private void init() {
